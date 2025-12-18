@@ -1,0 +1,13 @@
+
+dotnet new webapi -n DiagnosticoObservabilidadeNet10
+
+dotnet add package OpenTelemetry
+dotnet add package OpenTelemetry.Extensions.Hosting
+dotnet add package OpenTelemetry.Instrumentation.AspNetCore
+dotnet add package OpenTelemetry.Instrumentation.Http
+dotnet add package OpenTelemetry.Exporter.Console
+
+dotnet add package Swashbuckle.AspNetCore
+
+dotnet add package Serilog.AspNetCore
+dotnet add package Serilog.Sinks.Console
